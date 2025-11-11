@@ -39,53 +39,35 @@ artron/
 ├─ frontend/ → Angular + Material
 └─ desktop-shell/ → Electron integrando tudo
 
-yaml
-Copiar código
-
 ---
 
 ## 🛠️ Como Executar (quando o projeto estiver pronto)
 
+```bash
+
 ### 1. Instale dependências
 npm install
-
-shell
-Copiar código
 
 ### 2. Configure o banco PostgreSQL
 Crie um banco chamado:
 artron_db
 
-shell
-Copiar código
-
 ### 3. Gere o schema do Prisma
 npx prisma migrate dev
-
-shell
-Copiar código
 
 ### 4. Rode o backend
 cd backend
 npm run start:dev
 
-shell
-Copiar código
-
 ### 5. Rode o frontend
 cd frontend
 ng serve
-
-shell
-Copiar código
 
 ### 6. Inicie o app desktop
 cd desktop-shell
 npm start
 
-yaml
-Copiar código
-
+```
 ---
 
 ## 🎯 Objetivo do Projeto
@@ -102,6 +84,5 @@ Este projeto foi criado com propósito de estudo e evolução profissional, expl
 
 ---
 
-## 👤 Autor
-**Miguel Aleixo**  
-Desenvolvedor Web / Estudante de Tecnologia  
+## 📝 Licença
+Projeto livre para estudos e apresentação em portfólio.
