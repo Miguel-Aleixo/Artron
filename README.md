@@ -104,6 +104,7 @@ npm run start:frontend
 npm run electron:start
 📸 Demonstração (adicionar depois)
 Prints ou vídeo da aplicação funcionando
+ ```
 
 📝 Licença
 Projeto livre para estudos e apresentação em portfólio.
